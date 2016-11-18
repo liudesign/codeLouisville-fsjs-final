@@ -1,0 +1,32 @@
+// import twin spires custom styles
+@import "tsstyles/index";
+
+.comment-form {
+  @include clearfix;
+
+  .btn-primary {
+    margin-top: 7px;
+    float: right;
+  }
+
+  .form-control {
+    padding-left: em(20px);
+  }
+}
+
+.comment-list {
+  padding: 0;
+  list-style: none;
+
+  header {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  li {
+    @include clearfix;
+    margin: 7px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+
+}
